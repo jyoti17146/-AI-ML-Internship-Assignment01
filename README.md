@@ -1,4 +1,4 @@
-# AI/ML Internship — Home Assignments
+# AI/ML Internship — Home Assignment 01
 
 Beginner Python assignments from my AI/ML internship, covering rule-based systems that simulate unsupervised learning concepts using plain Python (no external ML libraries).
 
