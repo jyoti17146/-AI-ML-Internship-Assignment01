@@ -1,3 +1,6 @@
+#Live Demo: 
+https://jyoti17146.github.io/-AI-ML-Internship-Assignment01/
+
 # AI/ML Internship — Home Assignment 01
 
 Beginner Python assignments from my AI/ML internship, covering rule-based systems that simulate unsupervised learning concepts using plain Python (no external ML libraries).
