@@ -1,8 +1,6 @@
 from itertools import combinations
 
-# ===========================================================
 # MOVIE RECOMMENDATION (Rule-Based)
-# ===========================================================
 users = [
     {"name": "Rahul", "watched": ["Action", "SciFi"]},
     {"name": "Anita", "watched": ["Romance", "Drama"]},
@@ -58,9 +56,7 @@ print("Most Common Genre:", max_genre)
 print("Occurred:", max_count, "times")
 
 
-# ===========================================================
 # 4. CUSTOMER SEGMENTATION
-# ===========================================================
 customers = [
     {"name": "Rahul", "total_spent": 15000},
     {"name": "Anita", "total_spent": 3000},
@@ -78,9 +74,7 @@ for customer in customers:
     print(customer["name"], "->", segment)
 
 
-# ===========================================================
 # 5. PRODUCT RECOMMENDATION
-# ===========================================================
 products_bought = {
     "Rahul": ["Laptop", "Mouse"],
     "Anita": ["Mobile", "Charger"],
@@ -98,9 +92,7 @@ for user1 in products_bought:
                     print(f"Recommend to {user1}: {recommend} (both bought {common})")
 
 
-# ===========================================================
 # 6. MARKET BASKET ANALYSIS
-# ===========================================================
 transactions = [
     ["Bread", "Butter", "Milk"],
     ["Bread", "Butter"],
@@ -118,9 +110,7 @@ print("\n========== MARKET BASKET ANALYSIS ==========")
 print("Most frequently bought together:", most_common_pair, "->", pair_count[most_common_pair], "times")
 
 
-# ===========================================================
 # 7. FRAUD DETECTION (Pattern Discovery)
-# ===========================================================
 transactions_amount = {
     "Rahul": [200, 250, 220, 5000],
     "Anita": [100, 120, 110]
